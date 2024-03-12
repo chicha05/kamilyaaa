@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/media/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SkiGear</title>
+</head>
+
+<body>
+    <input type="checkbox" name="pupap-menu" id="pupap-menu">
+    <div class="pupap-menu">
+        <div class="header__top">
+            <!-- Шапка сайта -->
+            <div class="header__content ">
+                <div class="logo">
+                    <img src="assets/media/logo.svg" alt="logo">
+                    <p>SkiGear</p>
+                </div>
+                <div class="header__right">
+                    <img src="assets/media/icons/Vector-1.svg" alt="">
+                    <a href="basket.html"><img src="assets/media/icons/Vector.svg" alt=""></a>
+                    <label for="pupap-menu"><img src="assets/media/icons/menu.svg" alt="menu"></label>
+                </div>
+            </div>
+        </div>
+        <div class="pupap-menu__navigate">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="#about">О нас</a>
+            <a href="#footer">Контакты</a>
+            <a href="#news">Новости</a>
+        </div>
+    </div>
+
+    <!-- Вверхнаяя часть сайта -->
+    <div class="header__top">
+        <!-- Шапка сайта -->
+        <div class="header__content content">
+            <div class="logo">
+                <img src="assets/media/logo.svg" alt="logo">
+                <p>SkiGear</p>
+            </div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="#about">О нас</a>
+                <a href="#footer">Контакты</a>
+                <a href="#news">Новости</a>
+            </nav>
+            <div class="header__right">
+                <img src="assets/media/icons/Vector-1.svg" alt="">
+                <a href="basket.html"><img src="assets/media/icons/Vector.svg" alt=""></a>
+                <label class="pupap-menu-img" for="pupap-menu"><img src="assets/media/icons/menu.svg"
+                        alt="menu"></label>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Хлебные крошки -->
+    <div class="breadcrumbs content">
+        <p>Главная</p>
+        <img src="assets/media/icons/bread_arrow.svg" alt="">
+        <p>Корзина</p>
+    </div>
+
+    <!-- Блок с списком товаров -->
+    <div class="basket content">
+        <h2>Корзина</h2>
+
+        <div class="basket__cards">
+            <div class="basket__card">
+                <div class="basket__card-left">
+                    <img src="assets/media/basket/botinki.jpg" alt="">
+                    <div class="basket__card-text">
+                        <p class="basket__card-name">Ботинки для сноуборда Terror Camo Green</p>
+                        <p class="basket__card-price">3 700₽</p>
+                    </div>
+                </div>
+                <div class="basket__card-right">
+                    <div class="basket__card-size">
+                        <p class="basket__card-name__mini">Размер</p>
+                        <div class="basket__card-inp">
+                            <select name="size" id="size">
+                                <option selected>40</option>
+                                <option>41</option>
+                                <option>42</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="basket__card-count">
+                        <p class="basket__card-name__mini">Количество</p>
+                        <div class="basket__card-inp">
+                            <button>-</button>
+                            <input type="text" placeholder="1">
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="basket__card">
+                <div class="basket__card-left">
+                    <img src="assets/media/basket/botinki.jpg" alt="">
+                    <div class="basket__card-text">
+                        <p class="basket__card-name">Ботинки для сноуборда Terror Camo Green</p>
+                        <p class="basket__card-price">3 700₽</p>
+                    </div>
+                </div>
+                <div class="basket__card-right">
+                    <div class="basket__card-size">
+                        <p class="basket__card-name__mini">Размер</p>
+                        <div class="basket__card-inp">
+                            <select name="size" id="size">
+                                <option selected>40</option>
+                                <option>41</option>
+                                <option>42</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="basket__card-count">
+                        <p class="basket__card-name__mini">Количество</p>
+                        <div class="basket__card-inp">
+                            <button>-</button>
+                            <input type="text" placeholder="1">
+                            <button>+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bo__bottom left">
+            <div class="bo__top">
+                <div class="bo__card">
+                    <img src="assets/media/icons/order-1.png" alt="order">
+                    <div class="bo__text">
+                        <p class="bo__name">Самовывоз</p>
+                        <div class="bo__info">Из магазина, пункта выдачи или постмата</div>
+                    </div>
+                </div>
+                <div class="bo__card active">
+                    <img src="assets/media/icons/order-2.png" alt="order">
+                    <div class="bo__text">
+                        <p class="bo__name">Доставка</p>
+                        <div class="bo__info">Курьером до вашей двери</div>
+                    </div>
+                </div>
+            </div>
+
+            <input class="bo__address" type="text" placeholder="Введите ваш адресс">
+        </div>
+
+        <div class="bo__bottom right">
+            <div class="bo__stroke">
+                <input type="text" placeholder="ПРОМОКОД">
+            </div>
+            <div class="bo__stroke">
+                <p class="bo__form-name">Скидка</p>
+                <p class="bo__form-price">0</p>
+            </div>
+            <div class="bo__stroke">
+                <p class="bo__form-name">Доставка</p>
+                <p class="bo__form-price orange">700₽</p>
+            </div>
+            <div class="bo__stroke">
+                <p class="bo__form-name">К оплате</p>
+                <p class="bo__form-price orange">3 700 ₽</p>
+            </div>
+            <button class="bo__form-btn btn-orange">Оформить заказ</button>
+        </div>
+    </div>
+
+
+    <!-- Подвал -->
+    <footer id="footer">
+        <div class="footer__content content">
+            <div class="footer__logo logo">
+                <img src="assets/media/logo.svg" alt="logo">
+                <p>SkiGear</p>
+            </div>
+            <div class="footer__nav">
+                <p>Навигация</p>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="#about">О нас</a>
+                <a href="#footer">Контакты</a>
+                <a href="#news">Новости</a>
+            </div>
+            <div class="footer__nav">
+                <p>О покупке</p>
+                <a href="#footer">Как купить</a>
+                <a href="#footer">Доставка</a>
+                <a href="#footer">Самовывоз</a>
+                <a href="#footer">Оплата</a>
+                <a href="#footer">Возврат</a>
+            </div>
+            <div class="footer__nav">
+                <p>Компания SkiGear</p>
+                <a href="#footer">Вакансии</a>
+                <a href="#footer">Сервис-центр</a>
+                <a href="#footer">Наши партнеры</a>
+                <a href="#footer">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__media">
+                <img src="assets/media/icons/telegram.png" alt="telegram">
+                <img src="assets/media/icons/whatapp.png" alt="whatapp">
+                <img src="assets/media/icons/youtube.png" alt="youtube">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/media/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SkiGear</title>
+</head>
+<body>
+    <div class="basket-modal">
+        <div class="basket-modal-block">
+            <h2>Корзина</h2>
+
+            <div class="basket-modal__options">
+                <img src="assets/media/basket/basket-tovar.png" alt="">
+                <div class="basket-modal__tovar">
+                    <p class="option__name">Товар</p>
+                    <div class="basket__description">
+                        <p class="description__title">Ботинки для сноуборда Terror Camo Green</p>
+                        <p class="description__size">40</p>
+                        <p class="description__price">3 700 ₽</p>
+                    </div>
+                </div>
+
+                <div class="basket-modal__quantity">
+                        <p class="option__name">Кол-во</p>
+                        <div class="number">
+                            <div class="input-group quantity_goods">
+                                <input type="button" value="-" id="button_minus">
+                                <input type="text" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+                                <input type="button" value="+" id="button_plus">
+                            </div>
+                            <script type="text/javascript">
+                                var numCount = document.getElementById('num_count');
+                                var plusBtn = document.getElementById('button_plus');
+                                var minusBtn = document.getElementById('button_minus');
+                                plusBtn.onclick = function() {
+                                var qty = parseInt(numCount.value);
+                                qty = qty + 1;
+                                numCount.value = qty;
+                                }
+                                minusBtn.onclick = function() {
+                                var qty = parseInt(numCount.value);
+                                qty = qty - 1;
+                                numCount.value = qty;
+                                }   
+                            </script>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <hr noshade="">
+        <div class="basket-modal-block">
+            <div class="general-price">
+                <p>Всего</p>
+                <p>3 700 ₽</p>
+            </div>
+            <button>Оформить заказ</button>
+        </div>
+    </div>
+</body>
+</html>

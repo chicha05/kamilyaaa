@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/media/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SkiGear</title>
+</head>
+
+<body>
+    <input type="checkbox" name="pupap-menu" id="pupap-menu">
+    <div class="pupap-menu">
+        <div class="header__top">
+            <!-- Шапка сайта -->
+            <div class="header__content ">
+                <div class="logo">
+                    <img src="assets/media/logo.svg" alt="logo">
+                    <p>SkiGear</p>
+                </div>
+                <div class="header__right">
+                    <img src="assets/media/icons/Vector-1.svg" alt="">
+                    <a href="basket.html"><img src="assets/media/icons/Vector.svg" alt=""></a>
+                    <label for="pupap-menu"><img src="assets/media/icons/menu.svg" alt="menu"></label>
+                </div>
+            </div>
+        </div>
+        <div class="pupap-menu__navigate">
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="#about">О нас</a>
+            <a href="#footer">Контакты</a>
+            <a href="#news">Новости</a>
+        </div>
+    </div>
+
+    <!-- Вверхнаяя часть сайта -->
+    <div class="header__top">
+        <!-- Шапка сайта -->
+        <div class="header__content content">
+            <div class="logo">
+                <img src="assets/media/logo.svg" alt="logo">
+                <p>SkiGear</p>
+            </div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="#about">О нас</a>
+                <a href="#footer">Контакты</a>
+                <a href="#news">Новости</a>
+            </nav>
+            <div class="header__right">
+                <img src="assets/media/icons/Vector-1.svg" alt="">
+                <a href="basket.html"><img src="assets/media/icons/Vector.svg" alt=""></a>
+                <label class="pupap-menu-img" for="pupap-menu"><img src="assets/media/icons/menu.svg"
+                        alt="menu"></label>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Хлебные крошки -->
+    <div class="breadcrumbs content">
+        <a href="index.html">Главная</a>
+        <img src="assets/media/icons/bread_arrow.svg" alt="">
+        <p>Каталог</p>
+    </div>
+
+    <div class="products content">
+        <h2>Каталог</h2>
+        <div class="products__filters">
+            <div class="products__filter-category">
+                <p class="products__filter-name">Категория:</p>
+                <select name="filter" id="filter">
+                    <option value="Overalls">Комбинезоны</option>
+                    <option value="Snowboards">Сноуборды</option>
+                    <option value="Accessories">Аксессуары</option>
+                </select>
+            </div>
+            <div class="products__filter-price">
+                <p class="products__filter-name">Цена:</p>
+                <div class="products__filter-price__inp">
+                    <p>от</p>
+                    <input type="text" placeholder="0 ₽">
+                </div>
+                <div class="products__filter-price__inp">
+                    <p>до</p>
+                    <input type="text" placeholder="0 ₽">
+                </div>
+            </div>
+            <button class="products__filter-btn btn-orange">
+                Найти
+            </button>
+        </div>
+
+        <div class="products__cards">
+            <a href="product.html" class="products__card">
+                <img src="assets/media/product/tovar-1.png" class="tovar" alt="tovar">
+                <p class="products__name">Куртка женская горнолыжная Nordski Prime Deco Rose W</p>
+                <div class="products__price">
+                    <p class="products__price-good">34 990₽ </p>
+                    <p class="products__price-bad">40 790₽</p>
+                </div>
+                <div class="products__estimation">
+                    <div class="products__stars">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                    </div>
+                    <p>5 отзывов</p>
+                </div>
+                <div class="products__btn">
+                    <button class="btn-orange">В корзину</button>
+                </div>
+            </a>
+            <a href="product.html" class="products__card">
+                <img src="assets/media/product/tovar-2.png" class="tovar" alt="tovar">
+                <p class="products__name">Куртка женская горнолыжная Nordski Prime Deco Rose W</p>
+                <div class="products__price">
+                    <p class="products__price-good">17 900₽ </p>
+                    <p class="products__price-bad">22 490₽</p>
+                </div>
+                <div class="products__estimation">
+                    <div class="products__stars">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                    </div>
+                    <p>5 отзывов</p>
+                </div>
+                <div class="products__btn">
+                    <button class="btn-orange">В корзину</button>
+                </div>
+            </a>
+            <a href="product.html" class="products__card">
+                <img src="assets/media/product/tovar-3.png" class="tovar" alt="tovar">
+                <p class="products__name">Перчатки горнолыжные REUSCH 2021-22, Magic Black</p>
+                <div class="products__price">
+                    <p class="products__price-good">789₽</p>
+                    <p class="products__price-bad">1 190₽</p>
+                </div>
+                <div class="products__estimation">
+                    <div class="products__stars">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                    </div>
+                    <p>5 отзывов</p>
+                </div>
+                <div class="products__btn">
+                    <button class="btn-orange">В корзину</button>
+                </div>
+            </a>
+            <a href="product.html" class="products__card">
+                <img src="assets/media/product/tovar-1.png" class="tovar" alt="tovar">
+                <p class="products__name">Куртка женская горнолыжная Nordski Prime Deco Rose W</p>
+                <div class="products__price">
+                    <p class="products__price-good">34 990₽ </p>
+                    <p class="products__price-bad">40 790₽</p>
+                </div>
+                <div class="products__estimation">
+                    <div class="products__stars">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                    </div>
+                    <p>5 отзывов</p>
+                </div>
+                <div class="products__btn">
+                    <button class="btn-orange">В корзину</button>
+                </div>
+            </a>
+            <a href="product.html" class="products__card">
+                <img src="assets/media/product/tovar-2.png" class="tovar" alt="tovar">
+                <p class="products__name">Куртка женская горнолыжная Nordski Prime Deco Rose W</p>
+                <div class="products__price">
+                    <p class="products__price-good">17 900₽ </p>
+                    <p class="products__price-bad">22 490₽</p>
+                </div>
+                <div class="products__estimation">
+                    <div class="products__stars">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                    </div>
+                    <p>5 отзывов</p>
+                </div>
+                <div class="products__btn">
+                    <button class="btn-orange">В корзину</button>
+                </div>
+            </a>
+            <a href="product.html" class="products__card">
+                <img src="assets/media/product/tovar-3.png" class="tovar" alt="tovar">
+                <p class="products__name">Перчатки горнолыжные REUSCH 2021-22, Magic Black</p>
+                <div class="products__price">
+                    <p class="products__price-good">789₽</p>
+                    <p class="products__price-bad">1 190₽</p>
+                </div>
+                <div class="products__estimation">
+                    <div class="products__stars">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                        <img src="assets/media/icons/star.png" alt="star">
+                    </div>
+                    <p>5 отзывов</p>
+                </div>
+                <div class="products__btn">
+                    <button class="btn-orange">В корзину</button>
+                </div>
+            </a>
+            
+            </div>
+        </div>    
+    <!-- Подвал -->
+    <footer id="footer">
+        <div class="footer__content content">
+            <div class="footer__logo logo">
+                <img src="assets/media/logo.svg" alt="logo">
+                <p>SkiGear</p>
+            </div>
+            <div class="footer__nav">
+                <p>Навигация</p>
+                <a href="index.html">Главная</a>
+                <a href="catalog.html">Каталог</a>
+                <a href="#about">О нас</a>
+                <a href="#footer">Контакты</a>
+                <a href="#news">Новости</a>
+            </div>
+            <div class="footer__nav">
+                <p>О покупке</p>
+                <a href="#footer">Как купить</a>
+                <a href="#footer">Доставка</a>
+                <a href="#footer">Самовывоз</a>
+                <a href="#footer">Оплата</a>
+                <a href="#footer">Возврат</a>
+            </div>
+            <div class="footer__nav">
+                <p>Компания SkiGear</p>
+                <a href="#footer">Вакансии</a>
+                <a href="#footer">Сервис-центр</a>
+                <a href="#footer">Наши партнеры</a>
+                <a href="#footer">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__media">
+                <img src="assets/media/icons/telegram.png" alt="telegram">
+                <img src="assets/media/icons/whatapp.png" alt="whatapp">
+                <img src="assets/media/icons/youtube.png" alt="youtube">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
