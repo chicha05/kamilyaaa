@@ -173,7 +173,7 @@ header {
   font-size: 40px;
   text-align: center;
 }
-.header__banner button {
+.header__banner .btn-orange {
   width: 300px;
   height: 80px;
   text-align: center;
@@ -934,9 +934,11 @@ hr{
     font-size: 18px;
     width: 100%;
   }
-  .header__banner a {
-    width: 200px;
+  .header__banner .btn-orange {
+    width: 75%;
+    height: 65px;
     font-size: 24px;
+ 
   }
   /* Блок о нас */
   .about {
@@ -1017,6 +1019,7 @@ hr{
   }
   .news__text p {
     font-size: 16px;
+    width: 100%;
   }
   .news__card-text {
     padding: 80px 20px 25px 20px;
